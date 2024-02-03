@@ -12,7 +12,6 @@ return {
 				null_ls.builtins.formatting.rubocop,
 			},
 		})
-
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, { desc = "Formatting files"})
 	end,
 }
